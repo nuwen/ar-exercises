@@ -5,11 +5,6 @@ require_relative '../setup'
 puts "Exercise 1"
 puts "----------"
 
-class Store < ActiveRecord::Base
-  validates :name, presence: true, uniqueness: true
-  validates :annual_revenue, numericality: true
-
-end
 
 
 
